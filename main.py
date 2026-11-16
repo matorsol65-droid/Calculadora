@@ -5,12 +5,13 @@ accion = input("Indica la operación que quieres hacer: ")
 comprobante = false
 res = float()
 
-if "+" in accion:
+if "+" in accion and "-" not in accion:
     comprobante = True
     res = suma(accion)
-elif "-" in accion:
+elif "-" in accion and "+" not in accion:
     comprobante = True
     res = resta(accion)
+elif:
 
 if comprobante:
     print(res)
