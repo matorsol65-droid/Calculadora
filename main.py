@@ -11,7 +11,7 @@ if "+" in accion and "-" not in accion:
 elif "-" in accion and "+" not in accion:
     comprobante = True
     res = resta(accion)
-elif:
+elif "-" in accion and:
 
 if comprobante:
     print(res)
